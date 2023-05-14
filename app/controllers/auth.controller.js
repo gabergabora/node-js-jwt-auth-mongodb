@@ -38,7 +38,7 @@ exports.signup = (req, res) => {
             }
 
             res.send({ message: "User was registered successfully!" });
-          });
+          });                 
         }
       );
     } else {
